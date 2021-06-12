@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include redash *.css
+recursive-include redash *.csv
+recursive-include redash *.html
+recursive-include redash *.ico
+recursive-include redash *.js
+recursive-include redash *.json
+recursive-include redash *.md
+recursive-include redash *.png
+recursive-include redash *.py
+recursive-include redash *.svg
+recursive-include redash *.txt
+recursive-exclude redash *.pyc
