@@ -7,7 +7,7 @@ frappe.ui.form.on('Redash Business Intelligence', {
 		frm.disable_save();
 		frm.page.clear_menu();
 		frappe.call({
-			method: "pibiapp.redash.doctype.redash_business_intelligence.redash_business_intelligence.get_dashboard",
+			method: "redash.redash.doctype.redash_business_intelligence.redash_business_intelligence.get_dashboard",
 			callback: function(r) {
 				menuglobal = r.message;
 				document.getElementById('embedredash').src = menuglobal[0][1];
