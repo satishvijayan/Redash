@@ -6,6 +6,9 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 from frappe import _
+import jwt
+import time
+
 
 class redashDashboard(Document):
 	passx
@@ -24,10 +27,6 @@ def get_dashboard():
 			out.append([dashboard.title, dashboard.url_dashboard])
 	return out
 
-	from __future__ import unicode_literals
-	import frappe
-	import jwt
-	import time
 
 
 @frappe.whitelist()
