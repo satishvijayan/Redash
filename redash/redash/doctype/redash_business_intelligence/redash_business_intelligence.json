@@ -32,7 +32,7 @@
    "label": "Redash view", 
    "length": 0, 
    "no_copy": 0, 
-   "options": "<div class=\"embed-container\" style=\"position: relative; padding-bottom: 96.25%; height: 0; overflow: hidden;\"><iframe height=\"500\" id=\"embedredash\" src=\"https://raw.githubusercontent.com/getredash/website/8e820cd02c73a8ddf4f946a9d293c54fd3fb08b9/website/_assets/images/redash-anim.gif\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" width=\"1100\">\n<p>Texto alternativo para navegadores que no aceptan iframes</p>\n</iframe></div>", 
+   "options": "<div class=\"embed-container\" style=\"position: relative; padding-bottom: 96.25%; height: 0; overflow: hidden;\"><iframe height=\"500\" id=\"embedredash\" src=\"./44_redash-icon.svg\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" width=\"1100\">\n<p>Alternative text for browsers that don't accept iframes</p>\n</iframe></div>", 
    "permlevel": 0, 
    "precision": "", 
    "print_hide": 0, 
